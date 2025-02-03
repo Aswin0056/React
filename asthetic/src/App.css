@@ -1,0 +1,35 @@
+
+    /* Media query for screens smaller than 768px */
+    @media screen and (max-width: 768px) {
+        h1 {
+          font-size: 1.5rem;
+          color: darkblue;
+        }
+  
+        p {
+          font-size: 0.9rem;
+        }
+      }
+  
+    /* Media query for screens smaller than 480px */
+    @media screen and (max-width: 480px) {
+        h1 {
+          font-size: 1.2rem;
+          color: darkred;
+        }
+  
+        p {
+          font-size: 0.8rem;
+        }
+      }
+
+
+      
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

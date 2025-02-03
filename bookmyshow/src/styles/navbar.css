@@ -1,0 +1,80 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+  }
+  
+  .navbar img {
+    height: 50px;
+  }
+  
+  .search-location {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .search-bar {
+    flex: 1; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: none;
+    max-width: 600px; 
+  }
+  
+  .search-bar:focus {
+    border-color: #007BFF; 
+  }
+  
+  .location {
+    margin-left: 400px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .user-actions button {
+    color: white;
+    background-color: rgb(248, 68, 100);
+    border: none ;
+    border-radius: 5px ;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .user-actions a:hover {
+    text-decoration: underline;
+  }
+  
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .navbar .menu {
+        display: none; 
+    }
+
+    .navbar .search-location {
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .navbar .user-actions {
+        margin-top: 10px;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+

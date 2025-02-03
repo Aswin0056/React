@@ -1,0 +1,20 @@
+.sliderimg {
+    margin-top: 20px;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: white; 
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #999;
+  }
+
+  .imgsli{
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+
+  

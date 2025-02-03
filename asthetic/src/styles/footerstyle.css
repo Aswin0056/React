@@ -1,0 +1,144 @@
+/* Footer Styles */
+.footer {
+    background-color: #efefef;
+    color: black;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    justify-content: space-between;
+    animation: pageslideup 1s ease-in ;
+  }
+  
+  /* Footer Container */
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Logo Section */
+  .footer-logo-section {
+    flex: 1;
+    max-width: 300px;
+    justify-content: center;
+  }
+  
+  .footer-logo {
+    width: 150px;
+    margin-left: 75px;
+    margin-top: 80px;
+    
+  }
+  
+.logo-name{
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: cursive;
+    margin-bottom: 50px;
+    text-align: center;
+}
+  
+  /* Links Section */
+  .footer-links {
+    text-align: justify;
+    display: flex;
+    gap: 10px;
+    flex: 2;
+    justify-content:center;
+    margin-left: 70px;
+
+  }
+  
+  .footer-column {
+    min-width: 150px;
+  }
+  
+  .footer-heading {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin: 8px 0;
+    
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #a1a1a1;
+    font-size: 1.0rem;
+    transition: color 0.3s ease;
+    line-height: 32px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+
+  }
+  
+  .footer-column ul li a:hover {
+    transform: scale(1.2);
+    color: black;
+  }
+
+  .social-icons{
+
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align:  center;
+    align-items: center;
+  }
+
+  
+ /* Footer Styles */
+.social-icons p {
+  display: inline-block;
+  margin: 5px 10px 0 0;
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2rem; /* Adjust icon size */
+  transition: color 0.3s ease, transform 0.3s ease;
+  margin-left: 40px;
+}
+
+.social-icons p:hover {
+  color: darkorange;
+  transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #aaa;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .footer-bottom:hover{
+    color: darkorange;
+  }
+
+
+
+  @keyframes pageslideup {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 3;
+      transform: translateY(0);
+    }
+  }
